@@ -42,6 +42,7 @@ li {
 }
 
 .btn {
+    border: none;
     font-family: "Inter", sans-serif;
     font-size: 19px;
     line-height: 19px;
@@ -65,11 +66,13 @@ li {
     height: 40px;
     padding-top: 3px;
 }
+.first-section{
+    display: block;
+}
 
 .connect{
-    justify-content: space-evenly;
     display: flex;
-    margin-top: 96px;
+    margin: 96px auto 0;
     width: 1120px;
     height: 430px;
 }
@@ -83,12 +86,14 @@ li {
 .title{
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 48px;
     line-height: 52px;
+    margin-bottom: 0;
 }
 
 .sub-title{
+    margin-top: 30px;
     color: #655B6E;
     font-family: Inter;
     font-style: normal;
@@ -98,6 +103,7 @@ li {
 }
 
 .get-start {
+    border: none;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -110,4 +116,23 @@ li {
     top: 293px;
     background-color: #FABC32;
     border-radius: 4px;
+}
+
+.no-card {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    color: #655B6E;
+    margin-top: 0;
+    padding: 0;
+}
+
+.sponsors {
+    display: flex;
+    width: 744px;
+    height: 41px;
+    margin: 96px auto 0;
+    
 }
