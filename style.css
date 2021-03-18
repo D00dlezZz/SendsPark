@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Roboto:wght@500;700&display=swap');
 
 body {
-    background-color: blanchedalmond;
+    background-color:wheat;
+    margin:0;
+    padding:0;
 }
 
 .head-block{
     justify-content: space-between;
     align-items: center;
     display: flex;
-    width: 100%;
+    width: 99%;
     height: 103px;
+    margin-left: 5px;
+    margin-right: 10px;
 
 }
 
@@ -25,6 +29,7 @@ li {
     font-family: "Inter", sans-serif;
     font-size: 19px;
     line-height: 19px;
+    font-weight: 400;
 }
 
 .sendspark {
@@ -33,7 +38,6 @@ li {
     top: 47px;
     border-radius: 0px;
     align-items: center;
-    font-weight: 400;
 
 }
 
@@ -46,4 +50,17 @@ li {
     border-radius: 5px;
     background-color:#6140FF;
     color: white;
+    font-weight: 400;
+}
+
+.line{
+    background-color:#6140FF ;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FEF5E4;
+    height: 40px;
 }
