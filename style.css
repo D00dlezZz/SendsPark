@@ -202,3 +202,11 @@ ul {
     margin-left: 8px;
     margin-top: 8px;
 }
+
+.board {
+    display: flex;
+    background: url(..//img/board.svg);
+    width: 1120px;
+    height: 373px;
+    margin: 125px auto 0;
+}
