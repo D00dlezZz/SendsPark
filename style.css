@@ -175,23 +175,30 @@ ul {
 }
 
 .chrome {
-    text-align: center;
     margin-top: 17px;
     margin-left: 16px;
 }
 
 .install {
     display: flex;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 48px;
-    color: #FFF8EE;
     width: 286px;
     height: 64px;
     background-color: #6140FF;
     border-radius: 4px;
     border: none;
     margin-top: 17px;
+}
+
+.install-chrome {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 48px;
+    color: #FFF8EE; 
+    text-align: center;
+    height: 48px;
+    width: 200px;
+    margin-left: 8px;
+    margin-top: 8px;
 }
