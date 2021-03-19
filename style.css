@@ -174,7 +174,14 @@ ul {
     padding-left: 0px;
 }
 
+.chrome {
+    text-align: center;
+    margin-top: 17px;
+    margin-left: 16px;
+}
+
 .install {
+    display: flex;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 300;
